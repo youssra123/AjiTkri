@@ -3,7 +3,7 @@
 export default class Credentials {
 
     constructor(){
-        this._server="http://192.168.43.180:99/gamezone/apiprovider/";
+        this._server="http://localhost:8081/ajitkri/apiprovider/";
     }
 
     get server(){

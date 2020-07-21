@@ -40,7 +40,7 @@ export default class Connexion extends React.Component {
         let pwd = this.state.password;
 
    
-        fetch((new Credentials()).server+"?context=users&action=find&email_user="
+        fetch((new Credentials()).server+"?context=utilisateurs&action=find&email_user="
         +email+"&pwd_user="+md5(pwd))
         .then(res => res.json())
         .then(res => {

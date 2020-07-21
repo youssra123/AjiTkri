@@ -5,8 +5,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import LocateurTab from './components/tabStack/LocateurTab'
 import ConnexionTab from './components/tabStack/ConnexionTab'
 import HomeScreen from './components/HomeScreen'
+import AfficheReclamations from './components/AfficheReclamations'
 import LocataireTab from './components/tabStack/LocataireTab';
-
+import HomeChat from './components/Chats';
     
   
   
@@ -24,6 +25,8 @@ export default class App extends React.Component{
             <Drawer.Screen name="Espace locateur" component={ LocateurTab} />
             <Drawer.Screen name="Espace locataire" component={LocataireTab} />
             <Drawer.Screen name="Identification" component={ConnexionTab} />
+            <Drawer.Screen name="Chats" component={HomeChat} />
+            <Drawer.Screen name="AfficheReclamations" component={AfficheReclamations} />
         </Drawer.Navigator>
     </NavigationContainer>
    )
