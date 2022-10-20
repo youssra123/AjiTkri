@@ -38,7 +38,7 @@
     "react-native-invertible-scroll-view": "^2.0.0",
     "react-native-material-ripple": "^0.9.1",
     "react-native-paper": "^3.10.1",
-    "react-native-reanimated": "~1.4.0",
+    "react-native-reanimated": "~2.10.0",
     "react-native-safe-area-context": "0.6.0",
     "react-native-screens": "2.0.0-alpha.12",
     "react-native-search-bar": "^3.5.1",
